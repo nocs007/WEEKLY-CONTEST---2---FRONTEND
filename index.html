@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library System</title>
+    <link rel="icon" href="book1 .jpg">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div id="div-1"><a href="#" class="text-prop">Library System</a></div>
+      <span class="div-2"><a href="#book-section" class="text-prop">Books</a></span>
+      <span class="div-2"><a href="#register-section" class="text-prop">Register</a></span>
+      <span class="div-2"><a href="#" class="text-prop">Contact Us</a></span>
+      <span class="div-2"><a href="#" class="text-prop">Logout</a></span>
+    </header>
+    <br><br><br>
+    <section class="section-1" id="book-section"> 
+        <h1 id="heading-1">Books</h1>
+        <table class="table">
+            <tr>
+                <th>Book ID</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Genre</th>
+                <th>Availability</th>
+              </tr>        
+            <tr>
+            <td> 1 </td>
+            <td class="table1"><a href="https://manybooks.net/titles/burroughseetext96atcor11.html" target="_blank" class="text-bg">At the Earth's Core</a>
+                
+                <table>
+                    <tr>
+                        <td>Publication Date:1914</td>
+                    </tr>
+                    <tr>
+                        <td>Page Count:131</td>
+                    </tr>
+                    <tr>
+                        <td>ISBN:1920774025</td>
+                    </tr>
+                </table>
+            <td> Edgar Rice Burroughs</td>
+            <td> Science Fiction </td>
+            <td> Available </td>
+            </tr>
+            <tr>
+                <td> 2 </td>
+                <td class="table1"><a href="https://manybooks.net/titles/burroughse6464.html" target="_blank" class="text-bg">The Gods of Mars</a>
+                    <table>
+                        <tr>
+                            <td>Publication Date:1918</td>
+                        </tr>
+                        <tr>
+                            <td>Page Count:227</td>
+                        </tr>
+                        <tr>
+                            <td>ISBN:0345324390</td>
+                        </tr>
+                    </table>
+                <td> Edgar Rice Burroughs</td>
+                <td> Adventure </td>
+                <td> Available </td>
+            </tr>
+            <td> 3 </td>
+            <td class="table1"><a href="https://manybooks.net/titles/harrisonharry2187321873-8.html" target="_blank" class="text-bg">Planet of the Damned</a>
+                <table>
+                    <tr>
+                        <td>Publication Date:1962</td>
+                    </tr>
+                    <tr>
+                        <td>Page Count:157</td>
+                    </tr>
+                    <tr>
+                        <td>ISBN:978-081253
+                        </td>
+                    </tr>
+                </table>
+            <td> Harry Harrison</td>
+            <td> Science Fiction </td>
+            <td> Available </td></td>
+            </tr>
+           
+          </table>
+        </section>
+        <br><br>
+        
+        <section class="section-2" id="register-section">
+            <form style="background-color: white;">
+            <h1 class="text-bg">Register</h1>
+            <p class="text-bg">First Name:</p>
+            <input type="text" name="firstname" class="input-box" required>
+            <p class="text-bg">Last Name:</p>
+            <input type="text" name="lastname" class="input-box" required>
+            <p class="text-bg">Date of Birth:</p>
+            <input type="date" name="dob" class="input-box" required>
+            <p class="text-bg">Age:</p>
+            <input type="number" min="5" max="100" name="age" class="input-box" required>
+            <p class="text-bg">Email:</p>
+            <input type="email" name="email" class="input-box" required>
+            <p class="text-bg">Password:</p>
+            <input type="password" name="password" class="input-box" required>
+            <p class="text-bg">Confirm Password:</p>
+            <input type="password" name="password" class="input-box" required>
+            <input type="submit" value="Register" class="input-box" id="register">
+        </form>
+        </section>
+  </body>
+</html>
